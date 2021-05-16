@@ -84,14 +84,14 @@ function update(req, res, next) {
     if (!foundDish) {
        return next({
             status: 400,
-            message: `No dish matches that id: ${dishId}`
+            message: `No dish matches that id: ${dishId}`,
         })
     } 
         dish.name = name;
         dish.description = description;
         dish.price = price;
         dish.image_url = image_url;
-        res.json({ data: dish })
+        res.json({ data: dish });
     
 }
 
