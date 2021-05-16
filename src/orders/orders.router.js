@@ -9,14 +9,14 @@ router
     .get(controller.read)
     .put(controller.update)
     .delete(controller.delete)
-    .all(methodNotAllowed)
+    .all(methodNotAllowed);
     
 
 router
     .route("/")
     .get(controller.list)
     .post(controller.create)
-    .all(methodNotAllowed)
+    .all(methodNotAllowed);
 
 
 module.exports = router;
