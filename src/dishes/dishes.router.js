@@ -8,13 +8,13 @@ router
     .route("/:dishId")
     .get(read)
     .put(update)
-    .all(methodNotAllowed)
+    .all(methodNotAllowed);
 
 router
     .route("/")
     .get(list)
     .post(create)
-    .all(methodNotAllowed)
+    .all(methodNotAllowed);
 
 
 
