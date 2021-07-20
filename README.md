@@ -1,8 +1,7 @@
 # Grubdash
 
-Backend project, completed for Thinkful's Engineering Immersion program.
-
+RESTful API for the server-side of a food delivery application
 
 
 Tech:
-- JavaScript, Express
+- Node.js, Express
